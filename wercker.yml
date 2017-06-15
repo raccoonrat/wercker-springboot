@@ -19,7 +19,7 @@ deploy-accs:
   steps:
     # Deploy to Oracle Application Container Cloud
     - peternagy/oracle-accs-deploy@1.0.1:
-        opc_user: $OPC_USERNAME
+        opc_user: dong.han@oracle.com
         opc_password: $OPC_PASSWORD
         rest_url: $REST_URL
         domain: $IDENTITY_DOMAIN
